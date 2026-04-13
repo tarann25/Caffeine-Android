@@ -140,9 +140,7 @@ class TimeoutTileService : TileService() {
         val paint = Paint()
         
         paint.color = Color.WHITE
-        paint.textSize = 96f // Increased font size
-        paint.typeface = Typeface.create(Typeface.DEFAULT_BOLD, Typeface.BOLD)
-        paint.isFakeBoldText = true // Make it even bolder
+        paint.textSize = 64f // Adjusted font size
         paint.textAlign = Paint.Align.CENTER
         paint.isAntiAlias = true
         
